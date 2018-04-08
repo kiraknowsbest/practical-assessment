@@ -38,6 +38,7 @@ You will need to display the original 151 pokemon so the user has something to c
 [ ] Add a click event to each pokemon to console.log its information
 
 [ ] Now instead of logging the information, send a POST to your server at /poke
+
 *NOTE: The pokemon's number needs to be a part of the data you are sending*
 
 [ ] console.log the error or response received by the server
@@ -53,6 +54,7 @@ Let's handle that POST we are receiving from the client.
 [ ] console.log the data that was sent by the client
 
 [ ] Make a GET request to the pokemon API for that pokemon's information
+
 *NOTE: The url to make this request to is https://pokeapi.co/api/v2/pokemon/<number> where <number> is the number received by the client*
 
 [ ] Send the data to the client (should be either an error or the data)
@@ -68,6 +70,7 @@ We will be using Mongo and Mongoose to interact with our database.
 [ ] Define a PokemonSchema and Pokemon Model in db/dbHelpers.js
 
 [ ] Create helper function to find a pokemon from the db
+
 *NOTE: reading or writing to db is asynchronous. consider using a callback as an argument!*
 
 [ ] Create helper funtion to insert a pokemon into the db
