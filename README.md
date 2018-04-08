@@ -11,8 +11,11 @@ Make a plan for completing the app, don't just start writing code before you thi
 Comments can help you remember what a certain block of code does. Switching from React components to server logic to database reading and writing can be confusing. Leave yourself notes!
 
 While developing your code, if you use console.log() to check values, try and label the message also.
+
 Example: 
+
 console.log(request.body) // <-- bad
+
 console.log('request.body: ', request.body) // <-- good
 
 Scripts in the package.json are there to help you!
